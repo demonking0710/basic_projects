@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: rgb(223, 210, 210);
+   font-family: 'Rubik', sans-serif;
+}
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    z-index:1
+}
+
+.content{
+    max-width:600px;
+    padding:20px;
+    background-color: #fff;
+    margin:0 auto;
+    margin-top: 100px;
+    border-radius: 5px;
+   
+    box-shadow:5px 5px rgba(119, 117, 117, 0.05);
+}
+.web{
+    font-size: 15px;
+}
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 20px;
+    
+}
+.form-items{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    display:block;
+}
+label{
+    margin-bottom: 5px;
+}
+input,select,textarea{
+    height: 50px;
+   border:0.5px solid #ccc;
+    border-radius: 5px;
+}
+input:focus,textarea,select{
+    outline-color: red;
+   
+}
+form{
+    margin-top: 10px;
+}
+#CV{
+    border: .5px solid #ccc;
+    padding-top: 12px;
+    padding-left: 30px;
+    text-align: center;
+}
+.button-container{
+    margin-top: 20px;
+    
+    
+}
+
+input:focus{
+    border-color: red;
+    
+}
+.button-container{
+    display: flex;
+    justify-content:flex-end;
+}
+#btn{
+    width: 100px;
+    height:40px;
+    background-color: red;
+    border:none;
+}
+#btn:hover{
+    background-color: green;
+}
+#btn:focus{
+    background-color:cornsilk;
+}
